@@ -480,6 +480,14 @@ $arUrlRewrite=array (
     'PATH' => '/marketing/template.php',
     'SORT' => 100,
   ),
+  149 => 
+  array (
+    'CONDITION' => '#^/bi/unused_elements/#',
+    'RULE' => '',
+    'ID' => 'bitrix:biconnector.apachesuperset.workspace_analytic.controller',
+    'PATH' => '/bi/unused_elements/index.php',
+    'SORT' => 100,
+  ),
   12 => 
   array (
     'CONDITION' => '#^/online/(/?)([^/]*)#',

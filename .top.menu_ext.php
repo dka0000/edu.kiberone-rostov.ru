@@ -10,7 +10,7 @@ if (SITE_TEMPLATE_ID !== "bitrix24")
 }
 
 use Bitrix\Intranet\Binding\Marketplace;
-use Bitrix\Intranet\Integration\Socialnetwork\Collab\Collab;
+use Bitrix\Intranet\Integration\Socialnetwork\Collab\CollabProviderData;
 use Bitrix\Intranet\Site\Sections\AutomationSection;
 use \Bitrix\Landing\Rights;
 use Bitrix\Main\Loader;
@@ -211,7 +211,6 @@ if (\Bitrix\Intranet\Integration\Crm::getInstance()->canReadSomeItemsInCrm())
 		[
 			SITE_DIR."crm/",
 			ModuleManager::isModuleInstalled('bitrix24') ? "/contact_center/" : SITE_DIR . "services/contact_center/",
-			SITE_DIR . 'bi/dashboard/',
 		],
 		[
 			"real_link" => \Bitrix\Crm\Settings\EntityViewSettings::getDefaultPageUrl(),
@@ -362,7 +361,7 @@ if (CModule::IncludeModule('im'))
 
 if (
 	ToolsManager::getInstance()->checkAvailabilityByToolId('collab')
-	&& (new Collab())->isAvailable()
+	&& (new CollabProviderData())->isAvailable()
 )
 {
 	$arMenuB24[] = [
@@ -466,17 +465,22 @@ if (Loader::includeModule("intranet") && CIntranetUtils::IsExternalMailAvailable
 
 if (
 	Loader::includeModule('biconnector')
-	&& ToolsManager::getInstance()->checkAvailabilityByMenuId('crm_bi')
+	&& ToolsManager::getInstance()->checkAvailabilityByMenuId('menu_bi_constructor')
 	&& class_exists('\Bitrix\BIConnector\Access\AccessController')
 	&& \Bitrix\BIConnector\Access\AccessController::getCurrent()->check(\Bitrix\BIConnector\Access\ActionDictionary::ACTION_BIC_ACCESS)
 )
 {
 	$arMenuB24[] = [
 		GetMessage('TOP_MENU_BICONNECTOR_CONSTRUCTOR'),
-		'/bi/dashboard/',
+		'/bi/menu/',
 		[],
 		[
 			'menu_item_id' => 'menu_bi_constructor',
+			'real_link' => getLeftMenuItemLink(
+				'menu_bi_constructor',
+				SITE_DIR . 'bi/dashboard',
+			),
+			'top_menu_id' => 'top_menu_bi_constructor',
 		],
 		'',
 	];

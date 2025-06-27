@@ -1,289 +1,39 @@
-OTUS - 2025-06-27 01:14:32 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/public/session.php:8
-#2: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/tools/public_session.php:1
-----------
-
-OTUS - 2025-06-27 01:14:32 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/index.php:8
-----------
-
-OTUS - 2025-06-27 22:38:31 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/index.php:8
-----------
-
-OTUS - 2025-06-27 22:39:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:41:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:41:29 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/index.php:8
-----------
-
-OTUS - 2025-06-27 22:41:30 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/index.php:8
-----------
-
-OTUS - 2025-06-27 22:42:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:43:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:44:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:45:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:46:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:47:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:48:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:49:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:50:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:51:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:52:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:53:02 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:54:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:55:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:55:28 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/index.php:8
-----------
-
-OTUS - 2025-06-27 22:56:02 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:57:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:57:34 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/groupdav.php:20
-#2: include_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/urlrewrite.php:128
-#3: include_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/urlrewrite.php:2
-----------
-
-OTUS - 2025-06-27 22:58:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
-----------
-
-OTUS - 2025-06-27 22:58:34 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/index.php:8
-----------
-
-OTUS - 2025-06-27 22:58:43 - Host: edu.kiberone-rostov.ru:443 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog.php:10
+OTUS - 2025-06-28 01:57:01 - Host:  - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Undefined array key "REMOTE_USER" (0)
+/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/classes/general/site.php(953) : eval()'d code:1
+#0: eval
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/classes/general/site.php:953
+#1: CAllSite::GetCurTemplate
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:468
 #2: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/header.php:1
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
 #3: require(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/otus/debug.php:3
-----------
-
-OTUS - 2025-06-27 22:59:02 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
 	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
 ----------
 
-OTUS - 2025-06-27 23:00:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
+OTUS - 2025-06-28 01:57:01 - Host:  - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Undefined array key "REQUEST_METHOD" (0)
+/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/pull/ajax_hit_before.php:2
+#0: include_once(string)
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools.php:5229
+#1: ExecuteModuleEventEx
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:535
+#2: require_once(string)
 	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
+#3: require(string)
 	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
 ----------
 
-OTUS - 2025-06-27 23:01:01 - Host:  - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
-String offset cast occurred (0)
-/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include.php:116
-#0: require_once(string)
-	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:19
-#1: require(string)
+OTUS - 2025-06-28 01:57:01 - Host:  - LOW_PRIORITY_ERROR - [ErrorException] E_WARNING
+Undefined array key "REQUEST_METHOD" (0)
+/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/pull/ajax_hit.php:2
+#0: include_once(string)
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools.php:5229
+#1: ExecuteModuleEventEx
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/classes/general/main.php:3682
+#2: CAllMain::PrologActions
+	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/include/prolog_before.php:21
+#3: require(string)
 	/home/bitrix/ext_www/edu.kiberone-rostov.ru/bitrix/modules/main/tools/cron_events.php:11
 ----------
 
