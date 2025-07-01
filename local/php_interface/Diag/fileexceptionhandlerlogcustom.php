@@ -8,7 +8,13 @@ use Bitrix\Main\Diag\ExceptionHandlerFormatter;
 class FileExceptionHandlerLogCustom extends FileExceptionHandlerLog{
     protected $level;
 	protected $ignoredFiles = [
-        'main/include.php'
+
+    ];
+    protected $ignoredErrors =[
+        "Undefined array key",
+        "String offset cast occurred",
+        "Undefined variable",
+        "intec.core"
     ];
 
     public function write($exception, $logType)
@@ -33,8 +39,14 @@ class FileExceptionHandlerLogCustom extends FileExceptionHandlerLog{
     {
         if ($exception instanceof \ErrorException) {
             $file = $exception->getFile();
+            $text = ExceptionHandlerFormatter::format($exception, false, $this->level);
             foreach ($this->ignoredFiles as $ignoredFile) {
                 if (stripos($file, $ignoredFile) !== false) {
+                    return true;
+                }
+            }
+            foreach ($this->ignoredErrors as $ignoredError) {
+                if (stripos($text, $ignoredError) !== false) {
                     return true;
                 }
             }
